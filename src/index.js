@@ -8,8 +8,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import App from './pages/App';
 
+import Products from './pages/Products';
+
+import Login from './components/Login.jsx';
+
 ReactDOM.render(
-  <App />
+  <Login />
   , 
   document.getElementById('miAppSita') 
 );
