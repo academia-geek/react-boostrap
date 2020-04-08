@@ -6,14 +6,11 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import App from './pages/App';
+import App from './routes/App';
 
-import Products from './pages/Products';
-
-import Login from './components/Login.jsx';
 
 ReactDOM.render(
-  <Login />
+  <App />
   , 
   document.getElementById('miAppSita') 
 );

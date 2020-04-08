@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Login extends Component {
   constructor(props) {
@@ -46,9 +47,11 @@ class Login extends Component {
                 <input type="checkbox" value="remember-me" /> Remember me
               </label>
             </div>
-            <button className="btn btn-lg btn-primary btn-block" type="submit">
-              Sign in
-            </button>
+            <Link to="/products">
+              <button className="btn btn-lg btn-primary btn-block" type="button">
+                Iniciar Sesión
+              </button>
+            </Link>
             <p className="mt-5 mb-3 text-muted">© 2020-2021</p>
           </form>
         </div>

@@ -4,21 +4,16 @@ import Footer from '../components/Footer';
 import Main from '../components/Main';
 import { data } from '../utils/mocks/data';
 
-const App = () => {
+const MyPrices = () => {
   return (
     <>
-      <Header 
-        dataHeader={data.header}
-        dataNav={data.navData}
-      />
       <Main 
         dataContent={data.content}
         dataPrices={data.prices}
       />
-      <Footer />
     </>
   );
 }
 
-export default App;
+export default MyPrices;
 
